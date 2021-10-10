@@ -1,0 +1,20 @@
+
+{
+    "_QPVersion": "0.1.1",
+    "name": "No Drag",
+    "id": "nodrag",
+    "author": "fchb1239",
+    "version": "1.0.0",
+    "packageId": "com.loudshirtgames.flyingsquirrelchase",
+    "packageVersion": "0.9",
+    "description": "Turns off drag - this is mostly just for testing.",
+    "coverImage": "cover.png",
+    "modFiles": [
+        "libnodrag.so"
+    ],
+    "libraryFiles": [
+        "libbeatsaber-hook_3_1_2.so"
+    ],
+     "dependencies": [
+    ]
+}
