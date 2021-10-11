@@ -6,8 +6,8 @@
     "author": "fchb1239",
     "version": "1.0.0",
     "packageId": "com.loudshirtgames.flyingsquirrelchase",
-    "packageVersion": "0.9",
-    "description": "Turns off drag - this is mostly just for testing.",
+    "packageVersion": "1.0",
+    "description": "Turns off drag - you can now glide forever.",
     "coverImage": "cover.png",
     "modFiles": [
         "libnodrag.so"
