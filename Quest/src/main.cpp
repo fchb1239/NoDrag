@@ -1,7 +1,6 @@
 #include "main.hpp"
 #include "modloader/shared/modloader.hpp"
 #include "beatsaber-hook/shared/utils/hooking.hpp"
-#include "custom-types/shared/register.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 
 static ModInfo modInfo;
