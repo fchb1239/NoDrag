@@ -4,9 +4,9 @@
     "name": "No Drag",
     "id": "nodrag",
     "author": "fchb1239",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "packageId": "com.loudshirtgames.flyingsquirrelchase",
-    "packageVersion": "1.0",
+    "packageVersion": "1.12.6",
     "description": "Turns off drag - you can now glide forever.",
     "coverImage": "cover.png",
     "modFiles": [
