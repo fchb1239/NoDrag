@@ -27,7 +27,7 @@ std::string toLower(std::string string) {
 
 bool modWork = false;
 
-MAKE_HOOK_FIND_CLASS_UNSAFE_INSTANCE(GameManager_OnPrivateOKButtonPressed, "", "GameManager", "OnPrivateOKButtonPressed", void, Il2CppObject* self)
+MAKE_HOOK_FIND_CLASS_UNSAFE_INSTANCE(GameManager_OnPrivateOKButtonPressed, "", "GameManager", "OnPrivateOKButtonPressed", void, Il2CppObject* self) //thanks wolta
 {
     GameManager_OnPrivateOKButtonPressed(self);
     Il2CppString* privName = CRASH_UNLESS(il2cpp_utils::GetFieldValue<Il2CppString*>(self, "privateServerName"));
