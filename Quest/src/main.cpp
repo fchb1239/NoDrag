@@ -27,20 +27,6 @@ std::string toLower(std::string string) {
 
 bool modWork = false;
 
-MAKE_HOOK_FIND_CLASS_UNSAFE_INSTANCE(GameManager_OnPrivateOKButtonPressed, "", "GameManager", "OnPrivateOKButtonPressed", void, Il2CppObject* self) //thanks wolta
-{
-    GameManager_OnPrivateOKButtonPressed(self);
-    Il2CppString* privName = CRASH_UNLESS(il2cpp_utils::GetFieldValue<Il2CppString*>(self, "privateServerName"));
-    std::string roomName = toLower(to_utf8(csstrtostr(privName)));
-    std::string allowedString = "mod";
-    if (roomName.find(allowedString) != std::string::npos || roomName.find(allowedString) != std::string::npos) {
-        modWork = true;
-    }
-    if (roomName.find(allowedString) == std::string::npos && roomName.find(allowedString) == std::string::npos) {
-        modWork = false;
-    }
-}
-
 MAKE_HOOK_FIND_CLASS_UNSAFE_INSTANCE(FlightController_FixedUpdate, "", "FlightController", "FixedUpdate", void, Il2CppObject* self)
 {
     FlightController_FixedUpdate(self);
